@@ -1,0 +1,140 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#jsdom {
+  padding: 80px 0;
+}
+#jsdom .container {
+  max-width: 1920px;
+}
+#jsdom .chat {
+  width: 688px;
+  margin: 70px 10px 0 138px;
+  padding: 31px;
+  background-color: #f8c471;
+  border-radius: 25px;
+}
+#jsdom .chat .message {
+  height: 323px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 4px 13px;
+  overflow: scroll;
+  word-break: break-all;
+}
+#jsdom .chat .message::-webkit-scrollbar {
+  display: none;
+}
+#jsdom .chat .message .line {
+  max-width: 50%;
+  padding: 13px;
+  margin: 10px 0 5px;
+  display: inline-block;
+  background-color: #5f8094;
+  border-radius: 25px;
+  word-break: break-all;
+}
+#jsdom .chat .message .line h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+#jsdom .chat .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 0 0 0;
+}
+#jsdom .chat .text input {
+  margin-left: 15px;
+  width: 235px;
+  height: 45px;
+  border-radius: 25px;
+}
+#jsdom .chat .text .sent {
+  text-align: center;
+  background-color: #5f8094;
+  border-radius: 25px;
+  padding: 15px 35px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+#jsdom .chat .text .sent h3 {
+  cursor: pointer;
+  color: #ffffff;
+}
+#jsdom .chat .end {
+  display: flex;
+  justify-content: end;
+}
+#jsdom .two {
+  margin: 70px 0 0 3px;
+}
+@media (max-width: 1750px) {
+  #jsdom .chat {
+    width: 488px;
+    height: 323px;
+    margin: 80px 0 0 130px;
+  }
+  #jsdom .chat .message {
+    height: 223px;
+  }
+  #jsdom .chat .message .line {
+    padding: 8px;
+  }
+  #jsdom .chat .message .line h3 {
+    font-size: 16px;
+  }
+  #jsdom .chat .text {
+    padding: 12px 0 0 0;
+  }
+  #jsdom .chat .text input {
+    width: 200px;
+    height: 36px;
+  }
+  #jsdom .chat .text .sent {
+    padding: 10px 25px;
+  }
+  #jsdom .two {
+    margin: 80px 130px 0 0;
+  }
+  #jsdom .col-md-6 {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1300px) {
+  #jsdom .col-md-6 {
+    width: 100%;
+  }
+  #jsdom .col-md-6 .chat, #jsdom .col-md-6 .two {
+    margin: 30px 80px;
+  }
+}
+@media (max-width: 450px) {
+  #jsdom .chat {
+    width: 300px;
+    height: 423px;
+  }
+  #jsdom .chat .message {
+    height: 280px;
+  }
+  #jsdom .chat .text {
+    display: flex;
+    flex-direction: column;
+  }
+  #jsdom .chat .text input {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 200px;
+  }
+  #jsdom .chat .text .sent {
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 7px 15px;
+  }
+  #jsdom .col-md-6 .chat, #jsdom .col-md-6 .two {
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
